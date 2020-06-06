@@ -259,12 +259,12 @@ li {
 /* .buscame-align-avatar {
     align-self: flex-start;
   }
-
+*/
 
 
 .update-img {
     width: 25%;
-} */
+} 
 
 
 
@@ -275,6 +275,13 @@ li {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.content-container-videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 /* VIDEO */
@@ -290,7 +297,7 @@ video {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-top: 9%;
+    margin-top: 6%;
 }
 
 /* TERMS & CONDITIONS */
