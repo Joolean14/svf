@@ -3,47 +3,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/png" href="images/favicon-solo.png" />
-    <title>Medios | Solo Valencia</title>
+    <title>Más Liviano que Ayer | Solo Valencia</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <script>
-      function validateCode() {
-        var codes = [
-          "CV65H",
-          "ZH7EU",
-          "L2TPX",
-          "5T538",
-          "28N3U",
-          "DC8YV",
-          "N74R9",
-          "9YDUE",
-          "HXPXB",
-          "6A58M",
-          "8PUPU",
-          "3J52Z",
-          "Z6Z3T",
-          "J8R5M",
-          "VGQ8Y",
-          "RP9KE",
-          "EY9T5",
-          "Y38E2",
-          "QN7SM",
-          "UWVAW",
-        ];
-        var code = document.getElementById("code").value;
-        if (codes.indexOf(code) != -1) {
-          document.getElementById("video-medios").style.display = "block";
-          document.getElementById("error-code").style.display = "none";
-          document.getElementById("form-code").style.display = "none";
-        } else {
-          document.getElementById("error-code").style.display = "block";
-          document.getElementById("video-medios").style.display = "none";
-        }
-      }
-    </script>
   </head>
 
   <body>
@@ -102,40 +67,84 @@
           </menu>
         </div>
       </header>
-
-      <div class="content-container">
-        <div class="avatar2">
+      <div class="content-buscame">
+        <div class="avatar2 columns">
           <img
-            class="avatar-decoration"
-            src="images/medios.png"
-            alt="Medios"
-            title="Medios"
+            class="avatar-decoration buscame-align-avatar"
+            src="./images/buscame.png"
+            alt="Búscame"
+            title="Videos"
           />
         </div>
-        <div id="form-code">
-          <h2>¿Tienes un código?</h2>
-          <input type="text" class="input-codigo" id="code" />
-          <span id="error-code" style="display: none; color: white"
-            >Código no encontrado</span
-          >
-          <button type="button" onclick="validateCode()">
-            <strong>ENVIAR</strong>
-          </button>
-          <br />
-        </div>
-        <div id="video-medios" style="display: none">
+        <div class="columns">
+          <div class="title-iframe">
+            <!-- <h2><span>Solo Valencia</span></h2> -->
+            <iframe
+              src="https://open.spotify.com/follow/1/?uri=spotify:artist:2ZDmVE82uDUSsXwPnjr2xH&size=detail&theme=dark&show-count=0"
+              width="300"
+              height="56"
+              scrolling="no"
+              frameborder="0"
+              style="border: none; overflow: hidden"
+              allowtransparency="true"
+            ></iframe>
+          </div>
+          <p>
+            Cantautor y solista colombiano de pop alternativo, con raíces como
+            el bossa nova y el bolero. Su voz y sus melodías son suaves,
+            elegantes, sus letras sinceras y profundas. En más de 8 años de
+            recorrido ha podido ver los frutos de 3 discos de larga duración que
+            lo motivan a crear su nuevo Ep en el 2020 “Más Liviano que Ayer”.
+          </p>
+          <h2>Más Liviano que Ayer</h2>
+          <p>
+            Es la levededad y la serenidad, el desprendimiento de los engaños y
+            el disfrute del presente y de lo simple.
+          </p>
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/Ss4mLLwqgDk"
+            src="https://www.youtube.com/embed/V5Ks8HMkzXs"
             frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
+          <h2>Espuma</h2>
+          <p>
+            Es la euforia de la aventura, la idealización de la libertad, la
+            lujuria y la pirotecnia, que terminan por saciar y hastiar.
+          </p>
+          <div class="iframe-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/hUmttZpcUr4"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <h2>Búscame</h2>
+          <p>
+            Es la mitología del tedio, la rutina de un trabajo sin sentido, de
+            una vida aburrida y las ansias de escapar, de romper con todo y
+            empezar de nuevo. Musicalmente es un poco desconcertante, incómoda,
+            como si hubiera una parte orgánica y una máquina luchando entre sí
+            hasta encontrar la armonía.
+          </p>
+          <div class="iframe-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/CsB5tB8870o"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
-
     <footer>
       <div class="social-container">
         <a class="social-link" href="https://www.facebook.com/solovalencia"
