@@ -568,6 +568,7 @@ form {
 input,
 select,
 textarea {
+  font-family: "Montserrat", sans-serif;
   border: 2px #f0f0f0 solid;
   margin: 2%;
   border-radius: 10px;
