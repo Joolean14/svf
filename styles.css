@@ -749,6 +749,12 @@ footer p {
   .columns {
     width: 100%;
   }
+  .logo-main-content {
+    width: 70%;
+  }
+  .logo {
+    width: 70%;
+  }
 }
 
 /* CARUSEL */
