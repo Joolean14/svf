@@ -1,173 +1,140 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="images/favicon-solo.png" />
-    <title>Solo Valencia</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <div class="container">
-      <header>
-        <img
-          class="logo"
-          src="images/Solo Valencia.png"
-          width="50%"
-          alt="Logo solo valencia"
-        />
-        <!-- CIRCULAR MENU -->
-        <div id="circularMenu" class="circular-menu">
-          <a
-            class="floating-btn"
-            onclick="document.getElementById('circularMenu').classList.toggle('active');"
-          >
-            <div class="circular-menu-plus">
-              <i class="fa fa-plus"></i>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon-solo.png" />
+  <title>Solo Valencia</title>
+  <link rel="stylesheet" href="index.html">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img class="logo" src="images/Solo Valencia.png" width="50%" alt="Logo solo valencia" />
+      <!-- CIRCULAR MENU -->
+      <div id="circularMenu" class="circular-menu">
+        <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+          <div class="circular-menu-plus">
+            <i class="fa fa-plus"></i>
+          </div>
+        </a>
+
+        <menu class="items-wrapper">
+          <a href="mas-liviano-que-ayer.html" class="menu-item tooltip-buscame fa fa-star">
+            <span class="tooltiptext">Más Liviano que Ayer</span>
           </a>
-
-          <menu class="items-wrapper">
-            <a
-              href="mas-liviano-que-ayer.html"
-              class="menu-item tooltip-buscame fa fa-star"
-            >
-              <span class="tooltiptext">Más Liviano que Ayer</span>
-            </a>
-            <a href="videos.html" class="menu-item tooltip-videos fa fa-video">
-              <span class="tooltiptext">Videos</span>
-            </a>
-            <a
-              href="newsletter.html"
-              class="menu-item tooltip-newsletter fa fa-rss"
-            >
-              <span class="tooltiptext">Suscríbete</span>
-            </a>
-            <a
-              href="medios.html"
-              class="menu-item tooltip-medios fa fa-broadcast-tower"
-            >
-              <span class="tooltiptext">Medios</span>
-            </a>
-            <a
-              href="contacto.html"
-              class="menu-item tooltip-contacto fa fa-align-left"
-            >
-              <span class="tooltiptext">Contacto</span>
-            </a>
-            <a href="" class="menu-item tooltip-home fa fa-home">
-              <span class="tooltiptext">Home</span>
-            </a>
-          </menu>
-        </div>
-      </header>
-      <div class="floating-menu">
-        <div class="avatar avatar-ilu avatar-img">
-          <a href="mas-liviano-que-ayer.html" class="scene-item-container">
-            <div class="scene-figure">
-              <div class="scene-prop">
-                <div class="scene-prop-item scene-prop-item--f"></div>
-              </div>
-            </div>
-            <div class="scene-header">
-              <div class="scene-title">Más Liviano que Ayer</div>
-            </div>
+          <a href="videos.html" class="menu-item tooltip-videos fa fa-video">
+            <span class="tooltiptext">Videos</span>
           </a>
-        </div>
-
-        <div class="avatar2 avatar-ilu avatar-img">
-          <a href="videos.html" class="scene-item-container">
-            <div class="scene-figure">
-              <div class="scene-prop">
-                <div class="scene-prop-item scene-prop-item--v"></div>
-              </div>
-            </div>
-            <div class="scene-header">
-              <div class="scene-title">Videos</div>
-            </div>
+          <a href="newsletter.html" class="menu-item tooltip-newsletter fa fa-rss">
+            <span class="tooltiptext">Suscríbete</span>
           </a>
-        </div>
-
-        <div class="avatar3 avatar-ilu avatar-img">
-          <a href="newsletter.html" class="scene-item-container">
-            <div class="scene-figure">
-              <div class="scene-prop">
-                <div class="scene-prop-item scene-prop-item--n"></div>
-              </div>
-            </div>
-            <div class="scene-header">
-              <div class="scene-title">Suscríbete</div>
-            </div>
+          <a href="medios.html" class="menu-item tooltip-medios fa fa-broadcast-tower">
+            <span class="tooltiptext">Medios</span>
           </a>
-        </div>
+          <a href="contacto.html" class="menu-item tooltip-contacto fa fa-align-left">
+            <span class="tooltiptext">Contacto</span>
+          </a>
+          <a href="" class="menu-item tooltip-home fa fa-home">
+            <span class="tooltiptext">Home</span>
+          </a>
+        </menu>
+      </div>
+    </header>
+    <div class="floating-menu">
+      <div class="avatar avatar-ilu avatar-img">
+        <a href="mas-liviano-que-ayer.html" class="scene-item-container">
+          <div class="scene-figure">
+            <div class="scene-prop">
+              <div class="scene-prop-item scene-prop-item--f"></div>
+            </div>
+          </div>
+          <div class="scene-header">
+            <div class="scene-title">Más Liviano que Ayer</div>
+          </div>
+        </a>
+      </div>
 
-        <!-- </div>
+      <div class="avatar2 avatar-ilu avatar-img">
+        <a href="videos.html" class="scene-item-container">
+          <div class="scene-figure">
+            <div class="scene-prop">
+              <div class="scene-prop-item scene-prop-item--v"></div>
+            </div>
+          </div>
+          <div class="scene-header">
+            <div class="scene-title">Videos</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="avatar3 avatar-ilu avatar-img">
+        <a href="newsletter.html" class="scene-item-container">
+          <div class="scene-figure">
+            <div class="scene-prop">
+              <div class="scene-prop-item scene-prop-item--n"></div>
+            </div>
+          </div>
+          <div class="scene-header">
+            <div class="scene-title">Suscríbete</div>
+          </div>
+        </a>
+      </div>
+
+      <!-- </div>
         <div class="floating-menu"> -->
 
-        <div class="avatar4 avatar-ilu avatar-img">
-          <a href="medios.html" class="scene-item-container">
-            <div class="scene-figure">
-              <div class="scene-prop">
-                <div class="scene-prop-item scene-prop-item--m"></div>
-              </div>
+      <div class="avatar4 avatar-ilu avatar-img">
+        <a href="medios.html" class="scene-item-container">
+          <div class="scene-figure">
+            <div class="scene-prop">
+              <div class="scene-prop-item scene-prop-item--m"></div>
             </div>
-            <div class="scene-header">
-              <div class="scene-title">Medios</div>
-            </div>
-          </a>
-        </div>
+          </div>
+          <div class="scene-header">
+            <div class="scene-title">Medios</div>
+          </div>
+        </a>
+      </div>
 
-        <div class="avatar avatar-ilu avatar-img">
-          <a href="contacto.html" class="scene-item-container">
-            <div class="scene-figure">
-              <div class="scene-prop">
-                <div class="scene-prop-item scene-prop-item--c"></div>
-              </div>
+      <div class="avatar avatar-ilu avatar-img">
+        <a href="contacto.html" class="scene-item-container">
+          <div class="scene-figure">
+            <div class="scene-prop">
+              <div class="scene-prop-item scene-prop-item--c"></div>
             </div>
-            <div class="scene-header">
-              <div class="scene-title">Contacto</div>
-            </div>
-          </a>
-        </div>
+          </div>
+          <div class="scene-header">
+            <div class="scene-title">Contacto</div>
+          </div>
+        </a>
       </div>
     </div>
-    <footer>
-      <div class="social-container">
-        <a class="social-link" href="https://www.facebook.com/solovalencia"
-          ><i class="fab fa-facebook social-icons"></i>
-        </a>
-        <a class="social-link" href="https://www.instagram.com/solovalenciaco/"
-          ><i class="fab fa-instagram social-icons"></i>
-        </a>
-        <a
-          class="social-link"
-          href="https://www.youtube.com/channel/UC6WooW-AUmucnJFyta9aRdQ"
-          ><i class="fab fa-youtube social-icons"></i>
-        </a>
-        <a
-          class="social-link"
-          href="https://open.spotify.com/artist/2ZDmVE82uDUSsXwPnjr2xH"
-          ><i class="fab fa-spotify social-icons"></i>
-        </a>
-      </div>
-      <div class="terms-container">
-        <p class="terms-items">© SOLO VALENCIA</p>
-        <a class="terms-items social-link" href="terminos-condiciones.html"
-          >TÉRMINOS & CONDICIONES</a
-        >
-        <a class="terms-items social-link" href="politicas-privacidad.html"
-          >POLÍTICAS DE PRIVACIDAD</a
-        >
-      </div>
-    </footer>
+  </div>
+  <footer>
+    <div class="social-container">
+      <a class="social-link" href="https://www.facebook.com/solovalencia"><i class="fab fa-facebook social-icons"></i>
+      </a>
+      <a class="social-link" href="https://www.instagram.com/solovalenciaco/"><i
+          class="fab fa-instagram social-icons"></i>
+      </a>
+      <a class="social-link" href="https://www.youtube.com/channel/UC6WooW-AUmucnJFyta9aRdQ"><i
+          class="fab fa-youtube social-icons"></i>
+      </a>
+      <a class="social-link" href="https://open.spotify.com/artist/2ZDmVE82uDUSsXwPnjr2xH"><i
+          class="fab fa-spotify social-icons"></i>
+      </a>
+    </div>
+    <div class="terms-container">
+      <p class="terms-items">© SOLO VALENCIA</p>
+      <a class="terms-items social-link" href="terminos-condiciones.html">TÉRMINOS & CONDICIONES</a>
+      <a class="terms-items social-link" href="politicas-privacidad.html">POLÍTICAS DE PRIVACIDAD</a>
+    </div>
+  </footer>
 
-    <script
-      src="https://kit.fontawesome.com/98ca127883.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://kit.fontawesome.com/98ca127883.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
