@@ -11,3 +11,5 @@
 11. Video de mas liviano de ayer se sale del eje x en smartphone en mas-liviano-que-ayer.html. **Jairo**
 12. En las paginas legales el scroll del texto menos height para que quepa en el viewport. **Jairo** (Pillar webkit)
 13.  Swiper en menu principal. swiper js con 2 botones simultaneos.
+
+
