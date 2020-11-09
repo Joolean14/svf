@@ -1,183 +1,126 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="images/favicon-solo.png" />
-    <title>Más Liviano que Ayer | Solo Valencia</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <div class="container">
-      <header class="header-main-content">
-        <a href="./index.html">
-          <img
-            class="logo-main-content"
-            src="images/Solo Valencia.png"
-            alt="Logo solo valencia"
-          />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon-solo.png" />
+  <title>Más Liviano que Ayer | Solo Valencia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="header-main-content">
+      <a href="./index.html">
+        <img class="logo-main-content" src="images/Solo Valencia.png" alt="Logo solo valencia" />
+      </a>
+
+      <!-- CIRCULAR MENU -->
+      <div id="circularMenu" class="circular-menu">
+        <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+          <div class="circular-menu-plus">
+            <i class="fa fa-plus"></i>
+          </div>
         </a>
 
-        <!-- CIRCULAR MENU -->
-        <div id="circularMenu" class="circular-menu">
-          <a
-            class="floating-btn"
-            onclick="document.getElementById('circularMenu').classList.toggle('active');"
-          >
-            <div class="circular-menu-plus">
-              <i class="fa fa-plus"></i>
-            </div>
+        <menu class="items-wrapper">
+          <a href="mas-liviano-que-ayer.html" class="menu-item tooltip-buscame fa fa-star">
+            <span class="tooltiptext">Más Liviano que Ayer</span>
           </a>
-
-          <menu class="items-wrapper">
-            <a
-              href="mas-liviano-que-ayer.html"
-              class="menu-item tooltip-buscame fa fa-star"
-            >
-              <span class="tooltiptext">Más Liviano que Ayer</span>
-            </a>
-            <a href="videos.html" class="menu-item tooltip-videos fa fa-video">
-              <span class="tooltiptext">Videos</span>
-            </a>
-            <a
-              href="newsletter.html"
-              class="menu-item tooltip-newsletter fa fa-rss"
-            >
-              <span class="tooltiptext">Suscríbete</span>
-            </a>
-            <a
-              href="medios.html"
-              class="menu-item tooltip-medios fa fa-broadcast-tower"
-            >
-              <span class="tooltiptext">Medios</span>
-            </a>
-            <a
-              href="contacto.html"
-              class="menu-item tooltip-contacto fa fa-align-left"
-            >
-              <span class="tooltiptext">Contacto</span>
-            </a>
-            <a href="index.html" class="menu-item tooltip-home fa fa-home">
-              <span class="tooltiptext">Home</span>
-            </a>
-          </menu>
-        </div>
-      </header>
-      <div class="content-buscame">
-        <div class="avatar2 columns">
-          <img
-            class="avatar-decoration buscame-align-avatar"
-            src="./images/buscame.png"
-            alt="Búscame"
-            title="Videos"
-          />
-        </div>
-        <div class="columns">
-          <div class="title-iframe">
-            <!-- <h2><span>Solo Valencia</span></h2> -->
-            <iframe
-              src="https://open.spotify.com/follow/1/?uri=spotify:artist:2ZDmVE82uDUSsXwPnjr2xH&size=detail&theme=dark&show-count=0"
-              width="300"
-              height="56"
-              scrolling="no"
-              frameborder="0"
-              style="border: none; overflow: hidden"
-              allowtransparency="true"
-            ></iframe>
-          </div>
-          <p>
-            Cantautor y solista colombiano de pop alternativo, con raíces como
-            el bossa nova y el bolero. Su voz y sus melodías son suaves,
-            elegantes, sus letras sinceras y profundas. En más de 8 años de
-            recorrido ha podido ver los frutos de 3 discos de larga duración que
-            lo motivan a crear su nuevo Ep en el 2020 “Más Liviano que Ayer”.
-          </p>
-          <h2>Más Liviano que Ayer</h2>
-          <p>
-            Es la levededad y la serenidad, el desprendimiento de los engaños y
-            el disfrute del presente y de lo simple.
-          </p>
+          <a href="videos.html" class="menu-item tooltip-videos fa fa-video">
+            <span class="tooltiptext">Videos</span>
+          </a>
+          <a href="newsletter.html" class="menu-item tooltip-newsletter fa fa-rss">
+            <span class="tooltiptext">Suscríbete</span>
+          </a>
+          <a href="medios.html" class="menu-item tooltip-medios fa fa-broadcast-tower">
+            <span class="tooltiptext">Medios</span>
+          </a>
+          <a href="contacto.html" class="menu-item tooltip-contacto fa fa-align-left">
+            <span class="tooltiptext">Contacto</span>
+          </a>
+          <a href="index.html" class="menu-item tooltip-home fa fa-home">
+            <span class="tooltiptext">Home</span>
+          </a>
+        </menu>
+      </div>
+    </header>
+    <div class="content-buscame">
+      <div class="avatar2 columns">
+        <img class="avatar-decoration buscame-align-avatar" src="./images/buscame.png" alt="Búscame" title="Videos" />
+      </div>
+      <div class="columns">
+        <div class="title-iframe">
+          <!-- <h2><span>Solo Valencia</span></h2> -->
           <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/V5Ks8HMkzXs"
-            frameborder="0"
+            src="https://open.spotify.com/follow/1/?uri=spotify:artist:2ZDmVE82uDUSsXwPnjr2xH&size=detail&theme=dark&show-count=0"
+            width="300" height="56" scrolling="no" frameborder="0" style="border: none; overflow: hidden"
+            allowtransparency="true"></iframe>
+        </div>
+        <p>
+          Cantautor y solista colombiano de pop alternativo, con raíces como
+          el bossa nova y el bolero. Su voz y sus melodías son suaves,
+          elegantes, sus letras sinceras y profundas. En más de 8 años de
+          recorrido ha podido ver los frutos de 3 discos de larga duración que
+          lo motivan a crear su nuevo Ep en el 2020 “Más Liviano que Ayer”.
+        </p>
+        <h2>Más Liviano que Ayer</h2>
+        <p>
+          Es la levededad y la serenidad, el desprendimiento de los engaños y
+          el disfrute del presente y de lo simple.
+        </p>
+        <div class="iframe-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/V5Ks8HMkzXs" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <h2>Espuma</h2>
-          <p>
-            Es la euforia de la aventura, la idealización de la libertad, la
-            lujuria y la pirotecnia, que terminan por saciar y hastiar.
-          </p>
-          <div class="iframe-container">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/hUmttZpcUr4"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <h2>Búscame</h2>
-          <p>
-            Es la mitología del tedio, la rutina de un trabajo sin sentido, de
-            una vida aburrida y las ansias de escapar, de romper con todo y
-            empezar de nuevo. Musicalmente es un poco desconcertante, incómoda,
-            como si hubiera una parte orgánica y una máquina luchando entre sí
-            hasta encontrar la armonía.
-          </p>
-          <div class="iframe-container">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/CsB5tB8870o"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
+            allowfullscreen></iframe>
+        </div>
+        <h2>Espuma</h2>
+        <p>
+          Es la euforia de la aventura, la idealización de la libertad, la
+          lujuria y la pirotecnia, que terminan por saciar y hastiar.
+        </p>
+        <div class="iframe-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/hUmttZpcUr4" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h2>Búscame</h2>
+        <p>
+          Es la mitología del tedio, la rutina de un trabajo sin sentido, de
+          una vida aburrida y las ansias de escapar, de romper con todo y
+          empezar de nuevo. Musicalmente es un poco desconcertante, incómoda,
+          como si hubiera una parte orgánica y una máquina luchando entre sí
+          hasta encontrar la armonía.
+        </p>
+        <div class="iframe-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/CsB5tB8870o" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
-    <footer>
-      <div class="social-container">
-        <a class="social-link" href="https://www.facebook.com/solovalencia"
-          ><i class="fab fa-facebook social-icons"></i>
-        </a>
-        <a class="social-link" href="https://www.instagram.com/solovalenciaco/"
-          ><i class="fab fa-instagram social-icons"></i>
-        </a>
-        <a
-          class="social-link"
-          href="https://www.youtube.com/channel/UC6WooW-AUmucnJFyta9aRdQ"
-          ><i class="fab fa-youtube social-icons"></i>
-        </a>
-        <a
-          class="social-link"
-          href="https://open.spotify.com/artist/2ZDmVE82uDUSsXwPnjr2xH"
-          ><i class="fab fa-spotify social-icons"></i>
-        </a>
-      </div>
-      <div class="terms-container">
-        <p class="terms-items">© SOLO VALENCIA</p>
-        <a class="terms-items social-link" href="terminos-condiciones.html"
-          >TÉRMINOS & CONDICIONES</a
-        >
-        <a class="terms-items social-link" href="politicas-privacidad.html"
-          >POLÍTICAS DE PRIVACIDAD</a
-        >
-      </div>
-    </footer>
+  </div>
+  <footer>
+    <div class="social-container">
+      <a class="social-link" href="https://www.facebook.com/solovalencia"><i class="fab fa-facebook social-icons"></i>
+      </a>
+      <a class="social-link" href="https://www.instagram.com/solovalenciaco/"><i
+          class="fab fa-instagram social-icons"></i>
+      </a>
+      <a class="social-link" href="https://www.youtube.com/channel/UC6WooW-AUmucnJFyta9aRdQ"><i
+          class="fab fa-youtube social-icons"></i>
+      </a>
+      <a class="social-link" href="https://open.spotify.com/artist/2ZDmVE82uDUSsXwPnjr2xH"><i
+          class="fab fa-spotify social-icons"></i>
+      </a>
+    </div>
+    <div class="terms-container">
+      <p class="terms-items">© SOLO VALENCIA</p>
+      <a class="terms-items social-link" href="terminos-condiciones.html">TÉRMINOS & CONDICIONES</a>
+      <a class="terms-items social-link" href="politicas-privacidad.html">POLÍTICAS DE PRIVACIDAD</a>
+    </div>
+  </footer>
 
-    <script
-      src="https://kit.fontawesome.com/98ca127883.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://kit.fontawesome.com/98ca127883.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

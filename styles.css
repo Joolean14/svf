@@ -568,7 +568,8 @@ form {
 input,
 select,
 textarea {
-  border: 2px #f2d5a0 solid;
+  font-family: "Montserrat", sans-serif;
+  border: 2px #f0f0f0 solid;
   margin: 2%;
   border-radius: 10px;
   background-color: #262626;
@@ -604,8 +605,6 @@ button {
 }
 
 .form-control input {
-  border: 2px solid #f0f0f0;
-  border-radius: 4px;
   display: block;
   font-family: inherit;
   font-size: 14px;
@@ -749,6 +748,12 @@ footer p {
   }
   .columns {
     width: 100%;
+  }
+  .logo-main-content {
+    width: 70%;
+  }
+  .logo {
+    width: 70%;
   }
 }
 
