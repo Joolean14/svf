@@ -1,29 +1,30 @@
 .long-text {
-    overflow: scroll;
-    width: 1200px;
-    height: 500px;
-    width: 50%;
-  }
-  
-  * {
-    scrollbar-width: thin;
-    scrollbar-color: #ffffff #f2d5a0;
-  }
-  
-  /* Works on Chrome/Edge/Safari */
-  *::-webkit-scrollbar {
-    width: 12px;
-  }
-  *::-webkit-scrollbar-track {
-    background: #f2d5a0;
-  }
-  *::-webkit-scrollbar-thumb {
-    background-color: #ffffff;
-    border-radius: 20px;
-    border: 3px solid #f2d5a0;
-  }
+  overflow: scroll;
+  width: 1200px;
+  height: 500px;
+  width: 50%;
+  overflow-x: hidden;
+}
 
-  .texto-politicas{
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ffffff #f2d5a0;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #f2d5a0;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 3px solid #f2d5a0;
+}
+
+.texto-politicas {
+  padding-left: 10px;
+  padding-right: 10px;
+}
