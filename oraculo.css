@@ -1,0 +1,53 @@
+.content-container {
+  /* border: red 2px solid; */
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: 4%;
+}
+
+.oracle-body {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: white 2px solid; */
+}
+
+.oracle-title {
+  font-size: 2.5vw;
+  color: white;
+  margin: 0;
+}
+
+.hashtag {
+  color: #f2d5a0;
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+.oracle-btn {
+  background-color: #f2d8ee;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 32px;
+}
+
+.oracle-btn-link {
+  color: black;
+  text-decoration: none;
+}
+
+/* WIZARD STYLES */
+
+.header-main-content {
+  padding-top: 4%;
+  /* border: red 2px solid; */
+}
+
+.oracle-title-container {
+  /* border: yellow solid 2px; */
+  width: 80%;
+  padding-right: 20%;
+  justify-self: center;
+  /* margin-right: 30%; */
+}
