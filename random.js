@@ -28,7 +28,7 @@ let proverb = [
   "Cuidarnos del afán nos hará ver que ya llegamos y estar es haberlo logrado",
   "No hay “otra forma de hacer las cosas. Hacer es el único giro. Moverse es la única verdad.",
   "Escalas una montaña ¡Sigue!",
-  "Ya no hay otra forma que la física y no hay otra razón que la invisible. Hoy.",
+  "Ya no hay otra forma que la física\n y no hay otra razón que la invisible.\n Hoy.",
   "No importa si es sol o luna, escoge la vibración. No es la luz o la penumbra lo que guía la decisión.",
   "Espera, cubre tus ojos con tus propias manos Y espera. Recuerda que puedes oír. Te lo dirá al oído tu ceguera.",
   "Ya lo sabes tipografico",
@@ -43,7 +43,7 @@ let instagramURI = [
   "https://www.instagram.com/errores/",
 ];
 
-let selectedNum = Math.floor(Math.random() * images.length + 1);
+let selectedNum = Math.floor(Math.random() * images.length);
 
 document.getElementById("proverb").innerHTML = proverb[selectedNum];
 document.getElementById("personalValues").innerHTML =

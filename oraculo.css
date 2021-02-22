@@ -51,3 +51,42 @@
   justify-self: center;
   /* margin-right: 30%; */
 }
+
+.oracle-response {
+  display: flex;
+  flex-direction: row;
+  /* border: green 2px solid; */
+  width: 50%;
+  padding-right: 8%;
+  margin-bottom: 5%;
+}
+
+.card {
+  width: 40%;
+  margin-right: 5%;
+}
+
+.card-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ask-other-question {
+  color: #bedcb2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.personal-value {
+  font-size: 2vw;
+}
+
+.more-info {
+  /* border: yellow 2px solid; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 25%;
+  /* padding: 5% 0 5% 0; */
+}
