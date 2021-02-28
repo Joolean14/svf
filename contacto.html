@@ -1,129 +1,190 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon-solo.png" />
+    <title>Contacto | Solo Valencia</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="contacto.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="images/favicon-solo.png" />
-  <title>Contacto | Solo Valencia</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="contacto.css">
-</head>
-
-<body>
-  <div class="container">
-    <header class="header-main-content">
-      <a href="./index.html">
-        <img class="logo-main-content" src="images/Solo Valencia.png" alt="Logo solo valencia" />
-      </a>
-
-      <!-- CIRCULAR MENU -->
-      <div id="circularMenu" class="circular-menu">
-        <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
-          <div class="circular-menu-plus">
-            <i class="fa fa-plus"></i>
-          </div>
+  <body>
+    <div class="container">
+      <header class="header-main-content">
+        <a href="./index.html">
+          <img
+            class="logo-main-content"
+            src="images/Solo Valencia.png"
+            alt="Logo solo valencia"
+          />
         </a>
 
-        <menu class="items-wrapper">
-          <a href="mas-liviano-que-ayer.html" class="menu-item tooltip-buscame fa fa-star">
-            <span class="tooltiptext">Más Liviano que Ayer</span>
+        <!-- CIRCULAR MENU -->
+        <div id="circularMenu" class="circular-menu">
+          <a
+            class="floating-btn"
+            onclick="document.getElementById('circularMenu').classList.toggle('active');"
+          >
+            <div class="circular-menu-plus">
+              <i class="fa fa-plus"></i>
+            </div>
           </a>
-          <a href="videos.html" class="menu-item tooltip-videos fa fa-video">
-            <span class="tooltiptext">Videos</span>
-          </a>
-          <a href="newsletter.html" class="menu-item tooltip-newsletter fa fa-rss">
-            <span class="tooltiptext">Suscríbete</span>
-          </a>
-          <a href="medios.html" class="menu-item tooltip-medios fa fa-broadcast-tower">
-            <span class="tooltiptext">Medios</span>
-          </a>
-          <a href="contacto.html" class="menu-item tooltip-contacto fa fa-align-left">
-            <span class="tooltiptext">Contacto</span>
-          </a>
-          <a href="index.html" class="menu-item tooltip-home fa fa-home">
-            <span class="tooltiptext">Home</span>
-          </a>
-        </menu>
+
+          <menu class="items-wrapper">
+            <a
+              href="mas-liviano-que-ayer.html"
+              class="menu-item tooltip-buscame fa fa-star"
+            >
+              <span class="tooltiptext">Más Liviano que Ayer</span>
+            </a>
+            <a href="videos.html" class="menu-item tooltip-videos fa fa-video">
+              <span class="tooltiptext">Videos</span>
+            </a>
+            <a
+              href="newsletter.html"
+              class="menu-item tooltip-newsletter fa fa-rss"
+            >
+              <span class="tooltiptext">Suscríbete</span>
+            </a>
+            <a
+              href="oraculo.html"
+              class="menu-item tooltip-medios fa fa-compass"
+            >
+              <span class="tooltiptext">Oráculo</span>
+            </a>
+            <a
+              href="contacto.html"
+              class="menu-item tooltip-contacto fa fa-align-left"
+            >
+              <span class="tooltiptext">Contacto</span>
+            </a>
+            <a href="index.html" class="menu-item tooltip-home fa fa-home">
+              <span class="tooltiptext">Home</span>
+            </a>
+          </menu>
+        </div>
+      </header>
+      <div class="content-container">
+        <div class="avatar2">
+          <img
+            class="avatar-decoration"
+            src="./images/contacto.png"
+            alt="contacto"
+            title="Contacto"
+          />
+        </div>
+
+        <form id="form" class="form" action="" method="POST">
+          <div class="form-control">
+            <input
+              type="text"
+              placeholder=" Nombre*"
+              id="userName"
+              name="nombre"
+            />
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+          <br />
+          <div class="form-control">
+            <input
+              type="text"
+              placeholder=" Apellido*"
+              id="userLastName"
+              name="apellido"
+            />
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+          <br />
+          <div class="form-control">
+            <input
+              type="email"
+              placeholder=" Email*"
+              id="email"
+              name="correo"
+            />
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+          <br />
+          <div class="form-control">
+            <input type="text" placeholder=" País*" id="country" name="pais" />
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+          <br />
+          <br />
+          <div class="form-control">
+            <textarea
+              rows="5"
+              cols="30"
+              placeholder=" Mensaje*"
+              id="message"
+              name="mensaje"
+            ></textarea>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+          <br />
+          <div class="form-control">
+            <input
+              class="checkmark"
+              type="checkbox"
+              name="checkbox"
+              value="check"
+              id="agree"
+            />
+            He leÍdo y acepto los términos y condiciones.
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+          <button type="submit">Enviar</button>
+          <br />
+        </form>
       </div>
-    </header>
-    <div class="content-container">
-      <div class="avatar2">
-        <img class="avatar-decoration" src="./images/contacto.png" alt="contacto" title="Contacto" />
+    </div>
+
+    <footer>
+      <div class="social-container">
+        <a class="social-link" href="https://www.facebook.com/solovalencia"
+          ><i class="fab fa-facebook social-icons"></i>
+        </a>
+        <a class="social-link" href="https://www.instagram.com/solovalenciaco/"
+          ><i class="fab fa-instagram social-icons"></i>
+        </a>
+        <a
+          class="social-link"
+          href="https://www.youtube.com/channel/UC6WooW-AUmucnJFyta9aRdQ"
+          ><i class="fab fa-youtube social-icons"></i>
+        </a>
+        <a
+          class="social-link"
+          href="https://open.spotify.com/artist/2ZDmVE82uDUSsXwPnjr2xH"
+          ><i class="fab fa-spotify social-icons"></i>
+        </a>
       </div>
+      <div class="terms-container">
+        <p class="terms-items">© SOLO VALENCIA</p>
+        <a class="terms-items social-link" href="terminos-condiciones.html"
+          >TÉRMINOS & CONDICIONES</a
+        >
+        <a class="terms-items social-link" href="politicas-privacidad.html"
+          >POLÍTICAS DE PRIVACIDAD</a
+        >
+      </div>
+    </footer>
 
-      <form id="form" class="form" action="" method="POST">
-        <div class="form-control">
-          <input type="text" placeholder=" Nombre*" id="userName" name="nombre" />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
-        </div>
-        <br />
-        <div class="form-control">
-          <input type="text" placeholder=" Apellido*" id="userLastName" name="apellido" />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
-        </div>
-        <br />
-        <div class="form-control">
-          <input type="email" placeholder=" Email*" id="email" name="correo" />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
-        </div>
-        <br />
-        <div class="form-control">
-          <input type="text" placeholder=" País*" id="country" name="pais" />
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
-        </div>
-        <br />
-        <br />
-        <div class="form-control">
-          <textarea rows="5" cols="30" placeholder=" Mensaje*" id="message" name="mensaje"></textarea>
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
-        </div>
-        <br />
-        <div class="form-control">
-          <input class="checkmark" type="checkbox" name="checkbox" value="check" id="agree" />
-          He leÍdo y acepto los términos y condiciones.
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
-        </div>
-        <button type="submit">Enviar</button>
-        <br />
-      </form>
-    </div>
-  </div>
-
-  <footer>
-    <div class="social-container">
-      <a class="social-link" href="https://www.facebook.com/solovalencia"><i class="fab fa-facebook social-icons"></i>
-      </a>
-      <a class="social-link" href="https://www.instagram.com/solovalenciaco/"><i
-          class="fab fa-instagram social-icons"></i>
-      </a>
-      <a class="social-link" href="https://www.youtube.com/channel/UC6WooW-AUmucnJFyta9aRdQ"><i
-          class="fab fa-youtube social-icons"></i>
-      </a>
-      <a class="social-link" href="https://open.spotify.com/artist/2ZDmVE82uDUSsXwPnjr2xH"><i
-          class="fab fa-spotify social-icons"></i>
-      </a>
-    </div>
-    <div class="terms-container">
-      <p class="terms-items">© SOLO VALENCIA</p>
-      <a class="terms-items social-link" href="terminos-condiciones.html">TÉRMINOS & CONDICIONES</a>
-      <a class="terms-items social-link" href="politicas-privacidad.html">POLÍTICAS DE PRIVACIDAD</a>
-    </div>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/98ca127883.js" crossorigin="anonymous"></script>
-  <script src="form.js"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/98ca127883.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="form.js"></script>
+  </body>
 </html>

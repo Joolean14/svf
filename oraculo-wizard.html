@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/png" href="images/favicon-solo.png" />
     <title>Oráculo | Solo Valencia</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="oraculo.css" />
 </head>
@@ -37,8 +41,8 @@
                     <a href="newsletter.html" class="menu-item tooltip-newsletter fa fa-rss">
                         <span class="tooltiptext">Suscríbete</span>
                     </a>
-                    <a href="medios.html" class="menu-item tooltip-medios fa fa-broadcast-tower">
-                        <span class="tooltiptext">Medios</span>
+                    <a href="oraculo.html" class="menu-item tooltip-medios fa fa-compass">
+                        <span class="tooltiptext">Oráculo</span>
                     </a>
                     <a href="contacto.html" class="menu-item tooltip-contacto fa fa-align-left">
                         <span class="tooltiptext">Contacto</span>
@@ -52,17 +56,25 @@
 
         <div class="content-container">
             <div class="oracle-response">
-                <img id="card" class="card" src="" alt="">
+                <img id="card" class="card animate__animated animate__fadeInLeft animate__slower" src="" alt="">
                 <div class="card-text-container">
-                    <p id="proverb"></p>
-                    <p class="personal-value" id="personalValues"></p>
-
-                    <a class="ask-other-question" href="oraculo-wizard.html">Haz otra pregunta</a>
+                    <p id="proverb" class="proverb animate__animated animate__fadeInRight animate__slower"></p>
+                    <p class="personal-value animate__animated animate__fadeInRight animate__slower" id="personalValues"></p>
+                    <div>
+                        <a href="https://www.instagram.com/solovalenciaco/" class="instagram"
+                            target="_blank">@solovalenciaco</a>
+                            <br>
+                        <a href="https://www.instagram.com/e_rro_rres/" class="instagram"
+                            target="_blank">@e_rro_rres</a>
+                    </div>
+                    <div>
+                        <a class="ask-other-question" href="oraculo-wizard.html">Haz otra pregunta</a>
+                        <p>Acerca del oráculo</p>
+                    </div>
                 </div>
-                <!-- <p id="instagram"></p> -->
             </div>
             <div class="more-info">
-                <p>
+                <p class="more-info-text">
                     Este es un juego de suerte, de adivinación, de evocación o desbloqueo. Cada carta revela una palabra
                     clave y una frase o instrucción, o incluso otra pregunta, que aparecerá como respuesta a la pregunta
                     que hagas. La respuesta a esa pregunta que quizá nos estamos haciendo, nos hicimos o nos haremos
@@ -70,7 +82,6 @@
                 </p>
 
 
-                <p>Acerca del oráculo</p>
 
 
 

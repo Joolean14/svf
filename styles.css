@@ -218,6 +218,7 @@ h2 {
   bottom: 149px;
   line-height: 26px;
   right: 160px;
+  font-weight: bold;
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
@@ -509,7 +510,6 @@ a:hover {
   padding: 5px 5px;
 }
 
-
 /* =============================================VIDEO===================================== */
 
 iframe {
@@ -545,7 +545,6 @@ iframe {
   flex-direction: row;
   align-self: flex-start;
 }
-
 
 /* =======================FOOTER========================================= */
 
@@ -643,4 +642,3 @@ footer p {
     width: 100%;
   }
 }
-
