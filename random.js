@@ -23,14 +23,14 @@ let personalValues = [
 ];
 
 let proverb = [
-  "Deberíamos estarmenos seguros de todo",
-  "No todo movimiento crea, no toda pausa consume. Nada de lo que te espera se irá a otro lado.",
-  "Cuidarnos del afán nos hará ver que ya llegamos y estar es haberlo logrado",
-  "No hay “otra forma de hacer las cosas. Hacer es el único giro. Moverse es la única verdad.",
-  "Escalas una montaña ¡Sigue!",
-  "Ya no hay otra forma que la física\n y no hay otra razón que la invisible.\n Hoy.",
-  "No importa si es sol o luna, escoge la vibración. No es la luz o la penumbra lo que guía la decisión.",
-  "Espera, cubre tus ojos con tus propias manos Y espera. Recuerda que puedes oír. Te lo dirá al oído tu ceguera.",
+  "Deberíamos estar <br> menos seguros <br> de todo.",
+  "No todo movimiento crea, <br> no toda pausa consume.<br> Nada de lo que te espera <br> se irá a otro lado.",
+  "Cuidarnos del afán <br> nos hará ver <br> que ya llegamos <br> y estar <br> es haberlo logrado",
+  "No hay 'otra forma'<br> de hacer las cosas. <br> Hacer es el único giro.<br> Moverse es la única verdad.",
+  "Escalas una montaña <br> ¡Sigue!",
+  "Ya no hay otra forma que la física <br> y no hay otra razón que la invisible.<br> Hoy.",
+  "No importa si es sol o luna, <br> escoge la vibración. <br> No es la luz o la penumbra <br> lo que guía la decisión.",
+  "Espera,<br> cubre tus ojos con tus propias manos <br> y espera.<br> Recuerda que puedes oír. <br> Te lo dirá al oído tu ceguera.",
   "Ya lo sabes tipografico",
 ];
 
