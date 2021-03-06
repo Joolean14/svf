@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/png" href="images/favicon-solo.png" />
     <title>Oráculo | Solo Valencia</title>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="oraculo.css" />
 </head>
@@ -56,37 +53,51 @@
 
         <div class="content-container">
             <div class="oracle-response">
-                <img id="card" class="card animate__animated animate__fadeInLeft animate__slower" src="" alt="">
+                <img id="card" class="card animate__animated animate__fadeIn  animate__slower" src="" alt="">
                 <div class="card-text-container">
-                    <p id="proverb" class="proverb animate__animated animate__fadeInRight animate__slower"></p>
-                    <p class="personal-value animate__animated animate__fadeInRight animate__slower" id="personalValues"></p>
-                    <div>
+                    <p id="proverb" class="proverb animate__animated animate__fadeIn animate__slower"></p>
+                    <p class="personal-value animate__animated animate__fadeIn animate__slower" id="personalValues"></p>
+                    <div class="instagram-links-container">
                         <a href="https://www.instagram.com/solovalenciaco/" class="instagram"
                             target="_blank">@solovalenciaco</a>
-                            <br>
                         <a href="https://www.instagram.com/e_rro_rres/" class="instagram"
                             target="_blank">@e_rro_rres</a>
                     </div>
-                    <div>
+                    <div class="actions-container">
                         <a class="ask-other-question" href="oraculo-wizard.html">Haz otra pregunta</a>
-                        <p>Acerca del oráculo</p>
+                        <a class="ask-other-question" id="myBtn">Acerca del Oráculo</a>
                     </div>
                 </div>
             </div>
-            <div class="more-info">
-                <p class="more-info-text">
-                    Este es un juego de suerte, de adivinación, de evocación o desbloqueo. Cada carta revela una palabra
-                    clave y una frase o instrucción, o incluso otra pregunta, que aparecerá como respuesta a la pregunta
-                    que hagas. La respuesta a esa pregunta que quizá nos estamos haciendo, nos hicimos o nos haremos
-                    todos, nos insinúa o revela que #NoEstamosSolos.
-                </p>
+            <!-- <div class="more-info">
+                </div> -->
+        </div>
+        <!-- </div> -->
 
 
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
 
-
-
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2 class="dark-text">Oráculo</h2>
+                </div>
+                <div class="modal-body">
+                    <p class="more-info-text">
+                        Este es un juego de suerte, de adivinación, de evocación o desbloqueo. Cada carta revela una
+                        palabra
+                        clave y una frase o instrucción, o incluso otra pregunta, que aparecerá como respuesta a la
+                        pregunta
+                        que hagas. La respuesta a esa pregunta que quizá nos estamos haciendo, nos hicimos o nos haremos
+                        todos, nos insinúa o revela que #NoEstamosSolos.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <h3 class="dark-text">#NoEstamosSolos</h3>
+                </div>
             </div>
-            <!-- </div> -->
         </div>
 
         <footer>
@@ -113,6 +124,7 @@
 
         <script src="https://kit.fontawesome.com/98ca127883.js" crossorigin="anonymous"></script>
         <script src="random.js"></script>
+        <script src="modal.js"></script>
 </body>
 
 </html>
