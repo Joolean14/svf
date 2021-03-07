@@ -50,10 +50,19 @@ let proverb = [
   "Ya lo sabes.",
   "No lo definas hoy, mañana, cuando abras los ojos <br> piensa 2 veces <br> 'la felicidad' <br> y espera tu respuesta.",
   "Lo que obliga no es lo que eres. <br>Sacude tus rincones, <br>recuerda tus verdades.",
-  // "No eres una sola forma <br> no eres una sola alma <br> busca entre las que te arman, <br> la que te ayude a zarpar.",
-  // "Cómo podrías <br> contener el crecimiento <br> evitar la sensación <br>Cómo podrías evitar <br> de tu cuerpo <br>de tu mente, <br>de tu corazón <br>–semilla– <br>la explosión.",
-  // "Si esperas perfección <br>solo encontrarás <br>de frente, <br> horrorosa, <br> la cara de la frustración.",
-  // ""
+  "No eres una sola forma <br> no eres una sola alma <br> busca entre las que te arman, <br> la que te ayude a zarpar.",
+  "Cómo podrías <br> contener el crecimiento <br> evitar la sensación <br>Cómo podrías evitar <br> de tu cuerpo <br>de tu mente, <br>de tu corazón <br>–semilla– <br>la explosión.",
+  "Si esperas perfección <br>solo encontrarás <br>de frente, <br> horrorosa, <br> la cara de la frustración.",
+  "La fortuna ya está dada.<br>Te ha tocado toda<br>entera.",
+  "Crecer no es siempre<br>lo que el alma necesita.<br>Nos han enseñado mal<br>a medir las alegrías.",
+  "Existes. <br> Probar el mundo es tu regalo.<br>Tu tarea.<br>No busques más.",
+  "La misma luna que se eleva<br>Haciendo luz la oscuridad<br>no brilla por su cuenta<br>Es al sol quien a quien refleja.",
+  "Hermosos regalos<br>esconde la vida<br>solo para quien<br>se entrega sin medida.",
+  "Es mucho más lo que dejás pasar<br>Que lo que tenés.",
+  "Que muera todo aquello<br>que tenías por certeza<br>es la ley de la naturaleza.",
+  "Si no quieres lo mismo<br>Salte de la fila.",
+  "No es aislarse<br>sino desapegarse.",
+  "Puede irte muy bien<br>con algo que sabes<br>que hace mal.",
 ];
 
 let path = "images/oraculo/";
