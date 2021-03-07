@@ -2,7 +2,7 @@
 
 .content-container {
   /* border: red 2px solid; */
-  font-family: "Mulish", sans-serif;
+  font-family: "Mulish", sans-serif !important;
   flex-wrap: nowrap;
   justify-content: center;
   margin-bottom: 4%;
@@ -26,6 +26,10 @@
   color: #f2d5a0;
   font-weight: bold;
   font-size: 2vw;
+}
+
+.oracle-text-body {
+  text-align: left !important;
 }
 
 .oracle-btn {
@@ -226,6 +230,14 @@
     flex-direction: column;
     align-items: flex-start;
     /* border: yellow solid 2px; */
+  }
+
+  .oracle-body {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: white 2px solid; */
   }
 
   .oracle-title-container {
