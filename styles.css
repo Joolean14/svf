@@ -78,7 +78,7 @@ h2 {
   width: 3.5em;
   height: 3.5em;
   border-radius: 50%;
-  background-color: #f2d5a0;
+  background-color: #84bfb4;
   box-shadow: 0 2px 5px 0 hsla(0, 0%, 0%, 0.26);
   color: hsl(0, 0%, 100%);
   text-align: center;
@@ -115,7 +115,7 @@ h2 {
   top: 0;
   right: 0;
   z-index: -2;
-  background-color: #f2d5a0;
+  background-color: #84bfb4;
   transition: all 0.3s ease;
 }
 
@@ -152,7 +152,7 @@ h2 {
   /* opacity: 75%; */
   width: 48px;
   /* background-color: black; */
-  color: #fff;
+  color: #84bfb4;
   text-align: center;
   border-radius: 6px;
   bottom: 80px;
@@ -167,12 +167,12 @@ h2 {
   visibility: hidden;
   width: 65px;
   /* background-color: black; */
-  color: #fff;
+  color: #84bfb4;
   text-align: center;
   border-radius: 6px;
-  bottom: -58px;
+  bottom: 10px;
   line-height: 26px;
-  right: 78px;
+  right: 137px;
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
@@ -182,7 +182,7 @@ h2 {
   visibility: hidden;
   width: 63px;
   /* background-color: black; */
-  color: #fff;
+  color: #84bfb4;
   text-align: center;
   border-radius: 6px;
   bottom: 73px;
@@ -197,7 +197,7 @@ h2 {
   visibility: hidden;
   width: 77px;
   /* background-color: black; */
-  color: #fff;
+  color: #84bfb4;
   text-align: center;
   border-radius: 6px;
   bottom: 120px;
@@ -212,7 +212,7 @@ h2 {
   visibility: hidden;
   width: 55px;
   /* background-color: black; */
-  color: #fff;
+  color: #84bfb4;
   text-align: center;
   border-radius: 6px;
   bottom: 149px;
@@ -228,7 +228,7 @@ h2 {
   visibility: hidden;
   width: 66px;
   /* background-color: black; */
-  color: #fff;
+  color: #84bfb4;
   text-align: center;
   border-radius: 6px;
   bottom: 155px;
@@ -354,7 +354,7 @@ a:hover {
   width: 75%;
   will-change: transform, opacity;
   text-decoration: none;
-  color: #d2c193 !important;
+  color: #84bfb4 !important;
   transition: transform 1.5s ease-in-out;
 }
 
@@ -426,17 +426,19 @@ a:hover {
 .scene-title {
   text-transform: uppercase;
   -webkit-transform: uppercase;
-  font-size: 4vw;
-  text-shadow: -0.125em 0.125em 0 #01223c;
-  -webkit-text-stroke: 0.025em #01223c;
+  font-size: 2vw;
+  /* text-shadow: -0.125em 0.125em 0 #01223c; */
+  /* -webkit-text-stroke: 0.025em #01223c; */
   text-align: center;
   line-height: 0.8;
+  /* line-height: 18.8;  Puede ser esto */
+
   pointer-events: none;
 }
 
 .scene-item-container:hover .scene-header {
   transform: translate(-50%, -2vw) rotate(0deg) scale(1);
-  -webkit-transform: translate(-50%, -2vw) rotate(0deg) scale(1);
+  -webkit-transform: translate(-50%, 8vw) rotate(0deg) scale(1);
 }
 
 /* ==========================AVATAR FLOATING ANIMATION======================================= */
@@ -514,7 +516,7 @@ a:hover {
 
 iframe {
   box-sizing: border-box;
-  border: 5px #f2d5a0 solid;
+  border: 5px #84bfb4 solid;
   margin-bottom: 10px;
 }
 
@@ -551,13 +553,13 @@ iframe {
 footer {
   display: flex;
   width: 100%;
-  background-color: #f2d5a0;
+  background-color: #84bfb4;
   justify-content: space-between;
   align-items: center;
 }
 
 footer p {
-  color: #262626;
+  color: #ffffff;
 }
 
 .social-container {
@@ -589,7 +591,7 @@ footer p {
 
 .social-link {
   text-decoration: none;
-  color: #262626;
+  color: #ffffff;
 }
 
 .social-link:hover {
