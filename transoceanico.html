@@ -1,131 +1,98 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="images/favicon-solo.png" />
-    <title>Transoceánico | Solo Valencia</title>
-    <link rel="stylesheet" href="styles.css" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="[https://www.googletagmanager.com/gtag/js?id=G-JSVDV48L4W](https://www.googletagmanager.com/gtag/js?id=G-JSVDV48L4W)"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "G-JSVDV48L4W");
-    </script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon-solo.png" />
+  <title>Transoceánico | Solo Valencia</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async
+    src="[https://www.googletagmanager.com/gtag/js?id=G-JSVDV48L4W](https://www.googletagmanager.com/gtag/js?id=G-JSVDV48L4W)">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  <body>
-    <div class="container">
-      <header class="header-main-content">
-        <a href="./index.html">
-          <img
-            class="logo-main-content"
-            src="images/Solo Valencia.png"
-            alt="Logo solo valencia"
-          />
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-JSVDV48L4W");
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header-main-content">
+      <a href="./index.html">
+        <img class="logo-main-content" src="images/Solo Valencia.png" alt="Logo solo valencia" />
+      </a>
+
+      <!-- CIRCULAR MENU -->
+      <div id="circularMenu" class="circular-menu">
+        <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+          <div class="circular-menu-plus">
+            <i class="fa fa-plus"></i>
+          </div>
         </a>
 
-        <!-- CIRCULAR MENU -->
-        <div id="circularMenu" class="circular-menu">
-          <a
-            class="floating-btn"
-            onclick="document.getElementById('circularMenu').classList.toggle('active');"
-          >
-            <div class="circular-menu-plus">
-              <i class="fa fa-plus"></i>
-            </div>
+        <menu class="items-wrapper">
+          <a href="transoceanico.html" class="menu-item tooltip-buscame fa fa-star">
+            <span class="tooltiptext">Transoceánico</span>
           </a>
-
-          <menu class="items-wrapper">
-            <a
-              href="transoceanico.html"
-              class="menu-item tooltip-buscame fa fa-star"
-            >
-              <span class="tooltiptext">Transoceánico</span>
-            </a>
-            <a href="videos.html" class="menu-item tooltip-videos fa fa-video">
-              <span class="tooltiptext">Videos</span>
-            </a>
-            <a
-              href="newsletter.html"
-              class="menu-item tooltip-newsletter fa fa-rss"
-            >
-              <span class="tooltiptext">Suscríbete</span>
-            </a>
-            <a
-              href="oraculo.html"
-              class="menu-item tooltip-medios fa fa-compass"
-            >
-              <span class="tooltiptext">Oráculo</span>
-            </a>
-            <a
-              href="contacto.html"
-              class="menu-item tooltip-contacto fa fa-align-left"
-            >
-              <span class="tooltiptext">Contacto</span>
-            </a>
-            <a href="index.html" class="menu-item tooltip-home fa fa-home">
-              <span class="tooltiptext">Home</span>
-            </a>
-          </menu>
+          <a href="videos.html" class="menu-item tooltip-videos fa fa-video">
+            <span class="tooltiptext">Videos</span>
+          </a>
+          <a href="newsletter.html" class="menu-item tooltip-newsletter fa fa-rss">
+            <span class="tooltiptext">Suscríbete</span>
+          </a>
+          <a href="oraculo.html" class="menu-item tooltip-medios fa fa-compass">
+            <span class="tooltiptext">Oráculo</span>
+          </a>
+          <a href="contacto.html" class="menu-item tooltip-contacto fa fa-align-left">
+            <span class="tooltiptext">Contacto</span>
+          </a>
+          <a href="index.html" class="menu-item tooltip-home fa fa-home">
+            <span class="tooltiptext">Home</span>
+          </a>
+        </menu>
+      </div>
+    </header>
+    <div class="content-buscame">
+      <div class="avatar2 columns">
+        <img class="avatar-decoration buscame-align-avatar" src="./images/buscame.png" alt="Búscame" title="Videos" />
+      </div>
+      <div class="columns">
+        <div class="title-iframe">
+          <!-- <h2><span>Solo Valencia</span></h2> -->
+          <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:2ZDmVE82uDUSsXwPnjr2xH&size=detail&theme=light&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
         </div>
-      </header>
-      <div class="content-buscame">
-        <div class="avatar2 columns">
-          <img
-            class="avatar-decoration buscame-align-avatar"
-            src="./images/buscame.png"
-            alt="Búscame"
-            title="Videos"
-          />
-        </div>
-        <div class="columns">
-          <div class="title-iframe">
-            <!-- <h2><span>Solo Valencia</span></h2> -->
-            <iframe
-              src="https://open.spotify.com/follow/1/?uri=spotify:artist:2ZDmVE82uDUSsXwPnjr2xH&size=detail&theme=dark&show-count=0"
-              width="300"
-              height="56"
-              scrolling="no"
-              frameborder="0"
-              style="border: none; overflow: hidden"
-              allowtransparency="true"
-            ></iframe>
-          </div>
-          <p>
-            Cantautor y solista colombiano de pop alternativo, con raíces como
-            el bossa nova y el bolero. Su voz y sus melodías son suaves,
-            elegantes, sus letras sinceras y profundas. En más de 8 años de
-            recorrido ha podido ver los frutos de 3 discos de larga duración que
-            lo motivan a crear su nuevo Ep en el 2020 “Más Liviano que Ayer”.
-          </p>
-          <h2>Transoceánico</h2>
-          <p>
-            Transoceánico” nace literalmente después de nuestro primer viaje al
-            otro lado del océano atlántico. Los recuerdos cada vez se diseminan
-            más por el mundo, la nostalgia se expande, al igual que la distancia
-            física que nos separa de ellos, de los lugares y sobretodo de las
-            personas con quienes vivimos esos momentos. Es un EP de despedidas y
-            reencuentros, un viaje de ida y vuelta, donde se dejan cosas
-            importantes atrás y también se abrazan nuevas esperanzas. Es un
-            disco de amor, porque hace falta enamorarse, de la vida, de los
-            viajes, de amar en lugar de esperar ser amado.
-            <br /><br />
-            Está inspirado en grandes maestros del bolero como Tito Rodríguez,
-            Sofronín Martínez y Daniel Santos, género que me ha acompañado toda
-            la vida y en el cuál me siento feliz y completo. A esto sobrepusimos
-            algo de nuestra angustia y placer de vida moderna y el resultado es
-            algo retro-futurista, cargado de nostalgia pero con el coraje de
-            seguir adelante explorando nuevas sonoridades.
-          </p>
-          <!-- <div class="iframe-container">
+        <p>
+          Compositor, cantante y multi-instrumentista colombiano. Sus letras son ingeniosas y honestas, sus melodías
+          suaves pero afiladas. Con raíces en el bolero y el bossa nova, se alimenta del pop y el reggae mezclándolos
+          con sonoridades contemporáneas en la búsqueda de una música auténtica que se renueva en cada producción.
+        </p>
+        <h2>Transoceánico</h2>
+        <p>
+          Transoceánico” nace literalmente después de nuestro primer viaje al
+          otro lado del océano atlántico. Los recuerdos cada vez se diseminan
+          más por el mundo, la nostalgia se expande, al igual que la distancia
+          física que nos separa de ellos, de los lugares y sobretodo de las
+          personas con quienes vivimos esos momentos. Es un EP de despedidas y
+          reencuentros, un viaje de ida y vuelta, donde se dejan cosas
+          importantes atrás y también se abrazan nuevas esperanzas. Es un
+          disco de amor, porque hace falta enamorarse, de la vida, de los
+          viajes, de amar en lugar de esperar ser amado.
+          <br /><br />
+          Está inspirado en grandes maestros del bolero como Tito Rodríguez,
+          Sofronín Martínez y Daniel Santos, género que me ha acompañado toda
+          la vida y en el cuál me siento feliz y completo. A esto sobrepusimos
+          algo de nuestra angustia y placer de vida moderna y el resultado es
+          algo retro-futurista, cargado de nostalgia pero con el coraje de
+          seguir adelante explorando nuevas sonoridades.
+        </p>
+        <!-- <div class="iframe-container">
             <iframe
               width="560"
               height="315"
@@ -135,44 +102,31 @@
               allowfullscreen
             ></iframe>
           </div> -->
-          
-          </div>
-        </div>
+
       </div>
     </div>
-    <footer>
-      <div class="social-container">
-        <a class="social-link" href="https://www.facebook.com/solovalencia"
-          ><i class="fab fa-facebook social-icons"></i>
-        </a>
-        <a class="social-link" href="https://www.instagram.com/solovalenciaco/"
-          ><i class="fab fa-instagram social-icons"></i>
-        </a>
-        <a
-          class="social-link"
-          href="https://www.youtube.com/channel/UC6WooW-AUmucnJFyta9aRdQ"
-          ><i class="fab fa-youtube social-icons"></i>
-        </a>
-        <a
-          class="social-link"
-          href="https://open.spotify.com/artist/2ZDmVE82uDUSsXwPnjr2xH"
-          ><i class="fab fa-spotify social-icons"></i>
-        </a>
-      </div>
-      <div class="terms-container">
-        <p class="terms-items">© SOLO VALENCIA</p>
-        <a class="terms-items social-link" href="terminos-condiciones.html"
-          >TÉRMINOS & CONDICIONES</a
-        >
-        <a class="terms-items social-link" href="politicas-privacidad.html"
-          >POLÍTICAS DE PRIVACIDAD</a
-        >
-      </div>
-    </footer>
+  </div>
+  </div>
+  <footer>
+    <div class="social-container">
+      <a class="social-link" href="https://www.instagram.com/solovalenciaco/"><i
+          class="fab fa-instagram social-icons"></i>
+      </a>
+      <a class="social-link" href="https://www.youtube.com/channel/UC6WooW-AUmucnJFyta9aRdQ"><i
+          class="fab fa-youtube social-icons"></i>
+      </a>
+      <a class="social-link" href="https://open.spotify.com/artist/2ZDmVE82uDUSsXwPnjr2xH"><i
+          class="fab fa-spotify social-icons"></i>
+      </a>
+    </div>
+    <div class="terms-container">
+      <p class="terms-items">© SOLO VALENCIA</p>
+      <a class="terms-items social-link" href="terminos-condiciones.html">TÉRMINOS & CONDICIONES</a>
+      <a class="terms-items social-link" href="politicas-privacidad.html">POLÍTICAS DE PRIVACIDAD</a>
+    </div>
+  </footer>
 
-    <script
-      src="https://kit.fontawesome.com/98ca127883.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://kit.fontawesome.com/98ca127883.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
