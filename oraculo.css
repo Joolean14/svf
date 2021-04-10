@@ -2,7 +2,7 @@
 
 .content-container {
   /* border: red 2px solid; */
-  font-family: "Mulish", sans-serif !important;
+  /* font-family: "Mulish", sans-serif !important; */
   flex-wrap: nowrap;
   justify-content: center;
   margin-bottom: 4%;
@@ -18,12 +18,12 @@
 
 .oracle-title {
   font-size: 2.5vw;
-  color: white;
+  color: #0c1c26;
   margin: 0;
 }
 
 .hashtag {
-  color: #f2d5a0;
+  color: #84bfb4;
   font-weight: bold;
   font-size: 2vw;
 }
@@ -33,14 +33,14 @@
 }
 
 .oracle-btn {
-  background-color: #f2d8ee;
+  background-color: #0c1c26;
   border: none;
   border-radius: 25px;
   padding: 15px 32px;
 }
 
 .oracle-btn-link {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -102,6 +102,11 @@
   /* padding: 5% 0 5% 0; */
 }
 
+.more-info-text,
+.modal-title {
+  color: white;
+}
+
 .instagram-links-container {
   display: flex;
 }
@@ -120,7 +125,7 @@
 
 .instagram-modal {
   text-decoration: none;
-  color: #caffb2;
+  color: #84bfb4;
   opacity: 0.6;
 }
 
@@ -129,7 +134,7 @@
 }
 
 .ask-other-question {
-  color: #caffb2;
+  color: #84bfb4;
   text-decoration: none;
   font-size: 23px;
   font-weight: bold;
@@ -137,7 +142,7 @@
 }
 
 .about {
-  color: #f2d59f;
+  color: #0c1c26;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
@@ -151,20 +156,19 @@
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
   left: 0;
-  font-family: "Mulish", sans-serif;
   text-align: left !important;
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: #0c1c26; /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: #0c1c26;
   margin: auto;
   padding: 0;
   /* border: 1px solid #888; */
@@ -216,12 +220,12 @@
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #f2d5a0;
+  background-color: #0c1c26;
   color: white;
 }
 
 .modal-body {
-  background-color: #262626;
+  background-color: rgba(31, 55, 70, 0.376);
   padding: 2px 16px;
 }
 
@@ -231,7 +235,7 @@
 
 .modal-footer {
   padding: 2px 16px;
-  background-color: #f2d5a0;
+  background-color: #0c1c26;
   color: white;
 }
 

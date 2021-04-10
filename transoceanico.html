@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/png" href="images/favicon-solo.png" />
-    <title>Medios | Solo Valencia</title>
+    <title>Transoceánico | Solo Valencia</title>
     <link rel="stylesheet" href="styles.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -18,41 +18,6 @@
       gtag("js", new Date());
 
       gtag("config", "G-JSVDV48L4W");
-    </script>
-    <script>
-      function validateCode() {
-        var codes = [
-          "CV65H",
-          "ZH7EU",
-          "L2TPX",
-          "5T538",
-          "28N3U",
-          "DC8YV",
-          "N74R9",
-          "9YDUE",
-          "HXPXB",
-          "6A58M",
-          "8PUPU",
-          "3J52Z",
-          "Z6Z3T",
-          "J8R5M",
-          "VGQ8Y",
-          "RP9KE",
-          "EY9T5",
-          "Y38E2",
-          "QN7SM",
-          "UWVAW",
-        ];
-        var code = document.getElementById("code").value;
-        if (codes.indexOf(code) != -1) {
-          document.getElementById("video-medios").style.display = "block";
-          document.getElementById("error-code").style.display = "none";
-          document.getElementById("form-code").style.display = "none";
-        } else {
-          document.getElementById("error-code").style.display = "block";
-          document.getElementById("video-medios").style.display = "none";
-        }
-      }
     </script>
   </head>
 
@@ -95,10 +60,10 @@
               <span class="tooltiptext">Suscríbete</span>
             </a>
             <a
-              href="medios.html"
-              class="menu-item tooltip-medios fa fa-broadcast-tower"
+              href="oraculo.html"
+              class="menu-item tooltip-medios fa fa-compass"
             >
-              <span class="tooltiptext">Medios</span>
+              <span class="tooltiptext">Oráculo</span>
             </a>
             <a
               href="contacto.html"
@@ -112,40 +77,69 @@
           </menu>
         </div>
       </header>
-
-      <div class="content-container">
-        <div class="avatar2">
+      <div class="content-buscame">
+        <div class="avatar2 columns">
           <img
-            class="avatar-decoration"
-            src="images/medios.png"
-            alt="Medios"
-            title="Medios"
+            class="avatar-decoration buscame-align-avatar"
+            src="./images/buscame.png"
+            alt="Búscame"
+            title="Videos"
           />
         </div>
-        <div id="form-code">
-          <h2>¿Tienes un código?</h2>
-          <input type="text" class="input-codigo" id="code" />
-          <span id="error-code" style="display: none; color: white"
-            >Código no encontrado</span
-          >
-          <button type="button" onclick="validateCode()">
-            <strong>ENVIAR</strong>
-          </button>
-          <br />
-        </div>
-        <div id="video-medios" style="display: none">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/Ss4mLLwqgDk"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+        <div class="columns">
+          <div class="title-iframe">
+            <!-- <h2><span>Solo Valencia</span></h2> -->
+            <iframe
+              src="https://open.spotify.com/follow/1/?uri=spotify:artist:2ZDmVE82uDUSsXwPnjr2xH&size=detail&theme=dark&show-count=0"
+              width="300"
+              height="56"
+              scrolling="no"
+              frameborder="0"
+              style="border: none; overflow: hidden"
+              allowtransparency="true"
+            ></iframe>
+          </div>
+          <p>
+            Cantautor y solista colombiano de pop alternativo, con raíces como
+            el bossa nova y el bolero. Su voz y sus melodías son suaves,
+            elegantes, sus letras sinceras y profundas. En más de 8 años de
+            recorrido ha podido ver los frutos de 3 discos de larga duración que
+            lo motivan a crear su nuevo Ep en el 2020 “Más Liviano que Ayer”.
+          </p>
+          <h2>Transoceánico</h2>
+          <p>
+            Transoceánico” nace literalmente después de nuestro primer viaje al
+            otro lado del océano atlántico. Los recuerdos cada vez se diseminan
+            más por el mundo, la nostalgia se expande, al igual que la distancia
+            física que nos separa de ellos, de los lugares y sobretodo de las
+            personas con quienes vivimos esos momentos. Es un EP de despedidas y
+            reencuentros, un viaje de ida y vuelta, donde se dejan cosas
+            importantes atrás y también se abrazan nuevas esperanzas. Es un
+            disco de amor, porque hace falta enamorarse, de la vida, de los
+            viajes, de amar en lugar de esperar ser amado.
+            <br /><br />
+            Está inspirado en grandes maestros del bolero como Tito Rodríguez,
+            Sofronín Martínez y Daniel Santos, género que me ha acompañado toda
+            la vida y en el cuál me siento feliz y completo. A esto sobrepusimos
+            algo de nuestra angustia y placer de vida moderna y el resultado es
+            algo retro-futurista, cargado de nostalgia pero con el coraje de
+            seguir adelante explorando nuevas sonoridades.
+          </p>
+          <!-- <div class="iframe-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/V5Ks8HMkzXs"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div> -->
+          
+          </div>
         </div>
       </div>
     </div>
-
     <footer>
       <div class="social-container">
         <a class="social-link" href="https://www.facebook.com/solovalencia"

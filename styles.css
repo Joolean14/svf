@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .container {
@@ -43,13 +43,17 @@ body {
 
 p,
 li {
-  color: white;
+  color: #0c1c26;
   text-align: justify;
 }
 
 h2 {
-  color: white;
+  color: #0c1c26;
   text-align: center;
+}
+
+span {
+  font-family: "Montserrat", sans-serif !important;
 }
 
 /* ================================CIRCULAR MENU================================================== */
@@ -63,6 +67,7 @@ h2 {
   right: 1em;
   top: 1em;
   z-index: 50;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .circular-menu-plus {
@@ -78,7 +83,7 @@ h2 {
   width: 3.5em;
   height: 3.5em;
   border-radius: 50%;
-  background-color: #84bfb4;
+  background-color: #0c1c26;
   box-shadow: 0 2px 5px 0 hsla(0, 0%, 0%, 0.26);
   color: hsl(0, 0%, 100%);
   text-align: center;
@@ -115,7 +120,7 @@ h2 {
   top: 0;
   right: 0;
   z-index: -2;
-  background-color: #84bfb4;
+  background-color: #0c1c26;
   transition: all 0.3s ease;
 }
 
@@ -152,7 +157,7 @@ h2 {
   /* opacity: 75%; */
   width: 48px;
   /* background-color: black; */
-  color: #84bfb4;
+  color: #0c1c26;
   text-align: center;
   border-radius: 6px;
   bottom: 80px;
@@ -167,7 +172,7 @@ h2 {
   visibility: hidden;
   width: 65px;
   /* background-color: black; */
-  color: #84bfb4;
+  color: #0c1c26;
   text-align: center;
   border-radius: 6px;
   bottom: 10px;
@@ -182,7 +187,7 @@ h2 {
   visibility: hidden;
   width: 63px;
   /* background-color: black; */
-  color: #84bfb4;
+  color: #0c1c26;
   text-align: center;
   border-radius: 6px;
   bottom: 73px;
@@ -197,7 +202,7 @@ h2 {
   visibility: hidden;
   width: 77px;
   /* background-color: black; */
-  color: #84bfb4;
+  color: #0c1c26;
   text-align: center;
   border-radius: 6px;
   bottom: 120px;
@@ -212,7 +217,7 @@ h2 {
   visibility: hidden;
   width: 55px;
   /* background-color: black; */
-  color: #84bfb4;
+  color: #0c1c26;
   text-align: center;
   border-radius: 6px;
   bottom: 149px;
@@ -228,7 +233,7 @@ h2 {
   visibility: hidden;
   width: 66px;
   /* background-color: black; */
-  color: #84bfb4;
+  color: #0c1c26;
   text-align: center;
   border-radius: 6px;
   bottom: 155px;
@@ -354,7 +359,7 @@ a:hover {
   width: 75%;
   will-change: transform, opacity;
   text-decoration: none;
-  color: #84bfb4 !important;
+  color: #0c1c26 !important;
   transition: transform 1.5s ease-in-out;
 }
 
@@ -516,7 +521,7 @@ a:hover {
 
 iframe {
   box-sizing: border-box;
-  border: 5px #84bfb4 solid;
+  border: 5px #0c1c26 solid;
   margin-bottom: 10px;
 }
 
@@ -553,7 +558,7 @@ iframe {
 footer {
   display: flex;
   width: 100%;
-  background-color: #84bfb4;
+  background-color: #0c1c26;
   justify-content: space-between;
   align-items: center;
 }
