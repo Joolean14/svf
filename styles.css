@@ -18,6 +18,15 @@ body {
   min-height: 100%;
 }
 
+.index-background {
+  background-image: url("images/fondos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
 /* ===========================Header==================================== */
 
 .header-main-content {
