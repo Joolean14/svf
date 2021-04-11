@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@font-face {
+  font-family: "Industry Inc";
+  src: url("/images/fonts/IndustryInc-Base.ttf");
+}
 
 body {
   margin: 0;
@@ -605,11 +609,11 @@ footer p {
 
 .social-link {
   text-decoration: none;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .social-link:hover {
-  color: rgb(126, 105, 126);
+  color: #bf4c41;
 }
 
 #label-home {
