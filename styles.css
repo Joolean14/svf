@@ -613,7 +613,7 @@ footer p {
 }
 
 .social-link:hover {
-  color: #bf4c41;
+  color: #bf4c41 !important;
 }
 
 #label-home {
