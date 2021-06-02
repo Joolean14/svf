@@ -403,23 +403,23 @@ a:hover {
 }
 
 .scene-prop-item--f {
-  background-image: url(../images/buscame.png);
+  background-image: url(/images/buscame.png);
 }
 
 .scene-prop-item--v {
-  background-image: url(../images/videos.png);
+  background-image: url(/images/videos.png);
 }
 
 .scene-prop-item--n {
-  background-image: url(../images/newsletter.png);
+  background-image: url(/images/newsletter.png);
 }
 
 .scene-prop-item--m {
-  background-image: url(../images/medios.png);
+  background-image: url(/images/medios.png);
 }
 
 .scene-prop-item--c {
-  background-image: url(../images/contacto.png);
+  background-image: url(/images/contacto.png);
 }
 
 .scene-header {
